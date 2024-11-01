@@ -24,6 +24,12 @@ body {
     overflow: hidden;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
+@media (min-width:480px) {
+    .resume {
+        display: flex;
+        flex-direction: column;
+    }
+}
 .left {
     background-color: #333;
     padding: 40px;
