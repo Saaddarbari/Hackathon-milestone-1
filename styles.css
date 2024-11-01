@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-sizing: border-box;
+}
+body {
+    text-transform: capitalize;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+.resume {
+    display: flex;
+    max-width: 100%;
+    justify-content: center;
+    align-items: stretch;
+    gap: 0;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+.left {
+    background-color: #333;
+    padding: 40px;
+    text-align: center;
+    flex: 0.3;
+    min-height: 100vh;
+    color: white;
+}
+.right {
+    padding: 40px;
+    text-align: center;
+    flex: 1;
+    min-height: 100vh;
+}
+.left h1{ 
+    text-shadow: 1px 1px 1px black;
+    font-family: cursive;
+    font-size: 35px;
+    font-weight: bolder;
+    color: rgb(0, 153, 255);
+    }
+
+#pfp {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 100%;
+    margin-bottom: 20px;
+    border: 1px solid #333;
+}
+
+.phone, .email, .address {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+}
+.language p, .expertise p {
+    text-align: start;
+    padding: 2px 0;
+}
+
+#btn,.skillbtn{
+    border: none;
+    padding: 10px 20px;
+    background-color: rgb(0, 153, 255);
+    color: white;
+    font-weight: bold;
+    font-size: large;
+    margin: 20px 0;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+    transition: ease-in-out 0.2s;
+}
+
+.mainName {
+    text-shadow: 1px 1px 1px black;
+    font-family: cursive;
+    font-size: 50px;
+    font-weight: bolder;
+    color: rgb(0, 153, 255);
+}
+.subSec {
+    text-align: start;
+    margin-bottom: 2px;
+}
